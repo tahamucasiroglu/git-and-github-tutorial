@@ -64,17 +64,24 @@ Daha sonra yeniden `git add .` ve `git commit -m "mesaj"` yazarak dosyayı günc
 <br>
 
 ---
+
 ### Projeden dosya silme
+
 #### Yöntem 1-)
+
 Dosyayı yerel klasörden sildikten sonra `git status` deriz ve `git rm carpma.py` deriz. Son adım olarak bunu bildiricez. Bunuda `git commit -m "carpma.py silindi"` yazarız.
+
 #### Yöntem 2-)
+
 `git rm bolme.py` sonrasında `git commit -m "bölme silindi"` der ve bitiririz.<br>
 Klasör silmek istersek `git rm -r silinecekler/` ile silinecekler klasörünün içindeki dosyaları sildik fakat klasör içinde klasör varsa klasörleri silmez. Dosyaları yinede siler.
+
 ---
 ### Projeden dosya taşıma ve isim değiştirme
 Elle bu işlemi yapıp commit ederek yapılabilir. Silme 1. yöntem gibi, her şeyi komut satırından yapmak için `git mv main.py ana.py` yazarak main adını ana adında değiştirdik ve commit ederek bunu bildirdik.<br>![Dosya yüklenemedi](https://github.com/tahamucasiroglu/git-and-github-tutorial/blob/main/image/11.png)<br>
 
 `git mv ana.py anadepo/depo` yazarak ana.py adlı dosyamızı aynı dizindeki anadepo klasörünün içindeki depo klasörüne taşıdık. Bu sayede taşıma işlemide yapılabilir.
+
 ---
 ### Değişiklikleri geri alma
 `git restore -- metin.txt` dediğimiz zaman git deposundaki metin.txt yi bize geri yükler. Retore yerine önceden checkout kullanılıyordu fakat bu restore olarak güncellendi.
@@ -84,6 +91,7 @@ Eğer dosyanızı ara bölgeye gönderdikten sonra geri almak istediniz. Metin.t
 ### Versiyon değiştirme
 `git log` kısmından alınan sarı renkli yer olan `"commit f537b42d7275fe508ed57e8f66d2c2046b5096be"` gibi olan kod kısmında uzun kodu alarak(hash kodu oluyor)
 `git checkout f537b42d7275fe508ed57e8f66d2c2046b5096be  -- .` yazarız. Brada nokta bu versiyondaki her şeyi almak istediğimizi belirtiyor.<br>![Dosya yüklenemedi](https://github.com/tahamucasiroglu/git-and-github-tutorial/blob/main/image/12.png)<br>
+
 ---
 ### Github kullanımı
 Repositories açtıktan sonra Repositories'nin linkini alıp.<br>![Dosya yüklenemedi](https://github.com/tahamucasiroglu/git-and-github-tutorial/blob/main/image/13.png)<br>
@@ -97,6 +105,7 @@ Eğer projenizde gözükmesini istemediğiniz önemli dosyalar varsa `.gitignore
 ` belgeler/*`  belgeler klasöründeki herşeyi `.gitignore'a` ekler.
 `!belgeler/dosya1.html` ise üst satırdan tüm belgeler klasörünü ignore ettiğimiz için bize lazım olanı ayırmamızı sağlıyor yani bu iki satır sonunda belgeler klasörü tamamen dışlanacak sadece dosya1.html alınacak.
 Burada `git status` dersek bize sadece belgeler/dosya1.html var diyecek
+
 ---
 ### Branch
 Master ana dal branch ise dalın kopyasıdır. branch dal oluşturarak birden fazla kişi çalışmasında kolaylık sağlanır. Github proje kısmında master yazan yere tıkladıktan sonra arama yerine istediğiniz ismi yazıp enter dedikten sonra branch oluşturulacaktır.<br>![Dosya yüklenemedi](https://github.com/tahamucasiroglu/git-and-github-tutorial/blob/main/image/16.png)<br>
@@ -110,6 +119,7 @@ Buradan sonra yapılacak değişikliklerde yandal etkilenecektir. Bunları birle
 İkisi arasındaki farkı görmek için `git diff master kopya2` yazarak bu iki dal arasındaki farkı görebiliriz.
 `git merge kopya2` diyerek zaten master da olduğumuz için kopya2 dalını master ile birleştirecektir.
 Sonrasında `git push -u "gönderi mesajı" master` yazarak Github'a gönderebiliriz.
+
 ---
 ### Readme.md işlemleri
 [https://docs.github.com/en/free-pro-team@latest/github/writing-on-github](Buraya) tıklayarak Github'ın kendi sitesindeki tutorial kısmına ulaşabilirsiniz.
