@@ -123,15 +123,15 @@ Sonrasında `git push -u "gönderi mesajı" master` yazarak Github'a gönderebil
 ---
 ### Readme.md işlemleri
 [https://docs.github.com/en/free-pro-team@latest/github/writing-on-github](Buraya) tıklayarak Github'ın kendi sitesindeki tutorial kısmına ulaşabilirsiniz.
-<h1>
+<h4>
 #en büyük başlık<br>
 ######en küçük başlık<br>
-Burada # sayısı arttıkça size küçülür.<br></h1></h1>
-<h1>**kalın yazı**</h1>   **kalın yazı**<br>
-<h1>*italik yazı*</h1>    *italik yazı*<br><h1>
-[buraya tıklayın](tıklanıınca açılacak link) bağlantı ekleme </h1>[google.com.tr](google)<h1> gibi <br></h1>
-![hata durumunda mesaj](resim linki)<h1><br> 
-</h1>
+Burada # sayısı arttıkça size küçülür.<br></h4>
+<h4>**kalın yazı**</h4>   **kalın yazı**<br>
+<h4>*italik yazı*</h4>    *italik yazı*<br><h4>
+[buraya tıklayın](tıklanıınca açılacak link) bağlantı ekleme </h4>[google.com.tr](google)<h4> gibi <br></h4>
+<h4>![hata durumunda mesaj](resim linki)</h4><br> 
+
 
 ### Genel bilgiler
 <br>![Dosya yüklenemedi](https://github.com/tahamucasiroglu/git-and-github-tutorial/blob/main/image/17.png)<br>
