@@ -1,4 +1,7 @@
-# git-and-github-tutorial
+
+## git-and-github-tutorial
+<br>Notları tuttuğum eğitim serisine [buradan](https://www.youtube.com/watch?v=rWG70T7fePg&list=PLPrHLaayVkhnNstGIzQcxxnj6VYvsHBHy) ulaşabilirsiniz.<br>
+
 >Öncelikle git programını indirmek için [buradaki](https://git-scm.com/) adrese gidiniz.<br>
 Siteden programı indirip kurduktan sonra ilk açılış için;<br>
 `git config --global user.name "Taha Mücasiroğlu"`  yazınız. Burada ismimizi tanıtıyoruz. Sonrasında ise,<br>
