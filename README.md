@@ -132,13 +132,6 @@ Burada # sayısı arttıkça size küçülür.<br>
 [buraya tıklayın](tıklanıınca açılacak link) bağlantı ekleme [google.com.tr](google) gibi <br>
 ![hata durumunda mesaj](resim linki)</h4><br> 
 
-#en büyük başlık<br> 
-######en küçük başlık<br> 
-**kalın yazı**<br> 
-*italik yazı*<br> 
-[google.com.tr](google)<br> 
-![hata durumunda mesaj](resim linki)<br> 
-
 
 ### Genel bilgiler
 <br>![Dosya yüklenemedi](https://github.com/tahamucasiroglu/git-and-github-tutorial/blob/main/image/17.png)<br>
